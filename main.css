@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: solid yellow 3px;
+}
+.header h1 {
+    color: yellow;
+    margin-top: 1%;
+    margin-left: 10px;
+    font-family: "Gill Sans";
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2px;
+    font-family: "Gill Sans";
+    letter-spacing: 0.8px;
+    font-size: 13px;
+}
+ .header_1{
+    background-color: lightgrey;
+    text-align: center;
+    padding: 3px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    color: black; 
+ }
+ .header_1 h2{
+     margin: 1em;
+ }
+ .cross {
+    text-decoration: line-through 3px;
+}
+.underline {
+    text-decoration: solid underline yellow 4px;
+}
+.background {
+    background-image: url("./Classroom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    align-items: center;
+    height: 500px;
+    display: flex;
+}
+.white-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 37.5rem;
+    opacity: 85%;
+}
+.main-box{
+    padding: 200px;
+}
+.main-box > h2 {
+    margin-bottom: 20px;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
+.main-box > h3 {
+    line-height: 30px;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.main-box > button{
+    background-color: yellow;
+    padding: 13px 100px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 2px solid rgb(233, 199, 47);
+    font-weight: bold;
+    font-size: 13px;
+}
+.container {
+    display: flex;
+    align-items:center;
+}
+.container .item{
+    border: 0.3px solid grey;
+    padding:10px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+.item > h4 {
+    margin-bottom: 5px;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+}
+.item > p {
+    margin-bottom: 30px;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-weight: 200;
+    line-height: 25px;
+    font-size: 17px;  
+}
+.item > button {
+    background-color: lightgray;
+    border: 0.5px solid gray;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: bold;  
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-weight: 300;
+}
